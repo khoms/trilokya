@@ -1,0 +1,43 @@
+button {
+  border-radius: 6px;
+}
+table {
+  /* border-collapse: collapse; */
+  width: 100%;
+  margin: 20px;
+  margin-top: 0px;
+  /* align-content: center; */
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 20px;
+  color: rgb(116, 114, 114);
+  text-align: center;
+}
+
+th {
+  background-color: #010326;
+  justify-content: center;
+  align-items: center;
+}
+.acceptBtn {
+  background-color: white;
+  color: black;
+  margin-bottom: 4px;
+}
+.acceptBtn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+.removeBtn {
+  background-color: white;
+  color: black;
+}
+.removeBtn:hover {
+  background-color: red;
+  color: white;
+}
